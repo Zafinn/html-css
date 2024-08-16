@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mídias em HTML5</title>
+</head>
+<body>
+    <h1>Imagem dinâmica</h1>
+    <p>Tente abrir esse site em vários dispositivos diferentes ou simplesmente aumente e diminua o tamanho do seu navegador.</p> 
+
+    <picture>
+        <source media="(max-width:750px)" srcset="imagens/euarrego-p.jpeg" type="image/jpeg">
+        <source media="(max-width:1050px)" srcset="imagens/euarrego-m.jpeg" type="image/jpeg">
+        <img src="imagens/euarrego-g.jpeg" alt="FreeFire">
+    </picture>
+    <h1>Agora vamos adicionar um áudio:</h1>
+    <audio preload="metadata" autoplay controls loop>
+        <source src="midia/EU ARREGO.mp3" type="audio/mpeg">
+        <source src="midia/EU ARREGO.ogg" type="audio/ogg">
+        <source src="midia/EU ARREGO.wav" type="audio/wav">
+        <p>Infelizmente seu navegador não consegue reproduzir audio. <a href="midia/EU ARREGO.mp3" download="/EU ARREGO.mp3">Clique aqui para baixar o arquivo</a></p>
+        <!--Se o site não conseguir baixar o arquivo mp3, vai para o debaixo, ogg e assim sucessivamente até o wav. Caso não baixe nenhum, vai ter a opção de dowload-->
+    </audio> 
+    <p><a href="página2.html">Clique aqui </a>para ir até a página dois</p>
+</body>
+</html>

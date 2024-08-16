@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página dois</title>
+</head>
+<body>
+    <h1>Imagem dinâmica com "min"</h1>
+    <picture>
+        <source media="(min-width:1050px)" srcset="imagens/gojo-g.jpg" type="image/jpg">
+        <source media="(min-width:750px)" srcset="imagens/gojo-m.jpg" type="image/jpg">
+        <img src="imagens/gojo-p.jpg" alt="Gojo">
+        <br>
+    <picture>
+        <source media="(max-width:750px)" srcset="imagens/gojo-p.avif" type="image/avif">
+        <source media="(max-width:1050px)" srcset="imagens/gojo-m.avif" type="image/avif">
+        <img src="imagens/gojo-g.avif" alt="gojo">
+    </picture>
+    <a href="index.html"><p>Voltar para a página um</p></a>
+</body>
+</html>

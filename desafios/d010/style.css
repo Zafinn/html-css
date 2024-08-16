@@ -1,0 +1,135 @@
+@charset "UFT-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+@font-face {
+    font-family:'Android';
+    src: url(fontes/idroid.otf);
+}
+
+body {
+    background-color: #84E1AD;
+    margin: 0%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    background-image: linear-gradient(to top, #023E1C, #0E5F31, #177943, #1F9051);
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+header > p {
+    text-align: center;
+}
+
+header > nav {
+    text-align: left;
+    text-indent: 20px;
+}
+
+nav > a {
+    padding-right: 10px;
+    color: white;
+    text-decoration: none;
+}
+
+nav > a:hover {
+    background-color: #1F8B52;
+    color: #023E1C;
+    border-radius: 3px;
+    padding: 5px;
+}
+
+main {
+    background-color: white;
+    width: 830px;
+    margin: auto;
+    text-align: center;
+    border-radius: 0px 0px 10px 10px;
+}
+
+main > p{
+    text-align: justify;
+}
+
+article {
+    padding: 15px;
+}
+
+article a {
+    background-color:  #85E1AC;
+    padding: 2px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.video {
+    background-color: #043D1C;
+    padding: 20px;
+
+}
+
+.lista {
+    background-color: #7FE1A9;
+    text-align: left;
+    padding:10px;
+    margin: 0px 10px 0px 10px;
+    border-radius: 0px 0px 10px 10px;
+}
+
+article > aside {
+    background-color: white;
+}
+
+h1#principal {
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: bold;
+    font-size: 40px;
+}
+
+h1#conteudo {
+    color: black;
+    font-family: 'android';
+    text-align: left;
+    font-size: 30px;
+    font-weight: bold;
+    text-indent: 20px;
+    margin-top: 0px;
+}
+
+h2{
+    background-image: linear-gradient(45deg, #85E1AC, #85e1abcb, #85e1ab87, #85e1ab3f, #85e1ab00 90%);
+    color: #136C37;
+    font-family: 'android';
+    text-align: left;
+    text-indent: 10px;
+}
+
+h3{
+    background-color: #175C33;
+    color: white;
+    text-align: left;
+    border-radius: 10px 10px 0px 0px;
+    padding: 10px;
+    margin: 30px 10px 0px 10px;
+}
+
+p{
+    text-align: justify;
+    text-indent: 30px;
+}
+
+.final > p {
+    padding: 10px;
+    margin: 0px;
+}
+
+footer{
+    background-color: #03290F;
+    color: white;
+    padding: 5px;
+    margin-top: 15px;
+    text-align: center;
+}
