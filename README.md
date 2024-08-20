@@ -3,4 +3,4 @@
 
 Estou aprendendo a criar sites e agora vou gerenciar meus repositórios
 
-<a href="https://zafinn.github.io/html-css/exercícios/ex001/index.html">Exercício 1</a>
+<a href="https://zafinn.github.io/html-css/exercicios/ex001/index.html">Abrir o exercício 001</a>
